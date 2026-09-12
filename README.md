@@ -29,6 +29,21 @@ The skill returns a verdict up front (import from Poland or Germany, avoid Norwa
 | **Best realistic saving** | −€2,916 vs. home (13%) |
 | **Worst case** | +€19,105 — Norway triggers Swedish import VAT |
 
+Query: *"I'm in Sweden, is a BMW M2 (any generation) cheaper to buy locally or import?"*
+
+![BMW M2 appraisal overview — verdict, headline stats, and Gen 1 landed-cost chart](docs/images/m2-overview.png)
+
+Here the skill compares across all four M2 generations at once (F87 2016–2017, F87 Competition/CS 2017–2021, G87 2021–2024, G87 facelift 2024–present), flags a mileage-driven import-VAT trap on near-new facelift stock, and rolls everything into one dashboard:
+
+![Full BMW M2 comparison dashboard across all 11 markets and four generations](docs/images/m2-sweden-import-appraisal.png)
+
+| | |
+|---|---|
+| **Best move** | Germany — cheapest & deepest market in 3 of 4 generations |
+| **Best realistic saving** | −€6,658 — G87 (2021–24) from Germany (10%) |
+| **Worst case** | +€72,666 — Norwegian G87 hit by import VAT |
+| **Watch out for** | Near-new facelift stock risking a "new means of transport" VAT trap |
+
 ## Prerequisites
 
 - Claude Code CLI.
