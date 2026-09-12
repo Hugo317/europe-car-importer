@@ -1,0 +1,76 @@
+{
+  "mcpServers": {
+    "cars-data": {
+      "type": "http",
+      "url": "https://api.cars-data.com/mcp"
+    },
+    "as24-de": {
+      "command": "/Users/hugo/go/bin/autoscout24-mcp",
+      "args": [],
+      "env": {
+        "AS24_MARKET": "de",
+        "AS24_FETCHERS": "http"
+      }
+    },
+    "as24-it": {
+      "command": "/Users/hugo/go/bin/autoscout24-mcp",
+      "args": [],
+      "env": {
+        "AS24_MARKET": "it",
+        "AS24_FETCHERS": "http"
+      }
+    },
+    "as24-fr": {
+      "command": "/Users/hugo/go/bin/autoscout24-mcp",
+      "args": [],
+      "env": {
+        "AS24_MARKET": "fr",
+        "AS24_FETCHERS": "http"
+      }
+    },
+    "as24-nl": {
+      "command": "/Users/hugo/go/bin/autoscout24-mcp",
+      "args": [],
+      "env": {
+        "AS24_MARKET": "nl",
+        "AS24_FETCHERS": "http"
+      }
+    },
+    "as24-at": {
+      "command": "/Users/hugo/go/bin/autoscout24-mcp",
+      "args": [],
+      "env": {
+        "AS24_MARKET": "at",
+        "AS24_FETCHERS": "http"
+      }
+    },
+    "as24-es": {
+      "command": "/Users/hugo/go/bin/autoscout24-mcp",
+      "args": [],
+      "env": {
+        "AS24_MARKET": "es",
+        "AS24_FETCHERS": "http"
+      }
+    },
+    "otomoto-pl": {
+      "command": "/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/otomoto-pl/.venv/bin/python",
+      "args": ["/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/otomoto-pl/server.py"]
+    },
+    "standvirtual-pt": {
+      "command": "/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/standvirtual-pt/.venv/bin/python",
+      "args": ["/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/standvirtual-pt/server.py"]
+    },
+    "sauto-cz": {
+      "command": "/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/sauto-cz/.venv/bin/python",
+      "args": ["/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/sauto-cz/server.py"]
+    },
+    "finn-no": {
+      "command": "/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/finn-no/.venv/bin/python",
+      "args": ["/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/finn-no/server.py"]
+    },
+    "blocket-se": {
+      "command": "/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/blocket-se/.venv/bin/python",
+      "args": ["/Users/hugo/Documents/GitHub/calude_sandbox/car_appraisal/mcp-servers/blocket-se/server.py"]
+    }
+  }
+}

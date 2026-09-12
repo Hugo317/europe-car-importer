@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go version *)",
+      "Bash(brew --version)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "as24-at",
+    "as24-de",
+    "as24-es",
+    "as24-fr",
+    "as24-it",
+    "as24-nl",
+    "cars-data",
+    "otomoto-pl",
+    "standvirtual-pt",
+    "sauto-cz",
+    "finn-no",
+    "blocket-se"
+  ]
+}
