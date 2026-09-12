@@ -12,6 +12,23 @@ Ask Claude Code "is it cheaper to buy this car locally or import it from Germany
 
 The actual comparison logic (variant enumeration, EU duty/VAT rules, registration-fee lookup, shipping estimate) lives in `.claude/skills/car-import-appraisal/`.
 
+## Example output
+
+Query: *"I'm in Sweden, is a Hyundai i30 N (2017–2020) cheaper to buy locally or import?"*
+
+![i30 N appraisal overview — verdict, headline stats, and hatchback landed-cost chart](docs/images/i30n-overview.png)
+
+The skill returns a verdict up front (import from Poland or Germany, avoid Norway), then a full breakdown per market — median listing price, registration, shipping, and any import VAT — for both the hatchback and Fastback body styles, plus a full data table:
+
+![Full i30 N comparison dashboard across all 11 markets](docs/images/i30n-sweden-import-appraisal.png)
+
+| | |
+|---|---|
+| **Buy locally (Blocket)** | €21,824 (n=3, thin sample) |
+| **Cheapest landed** | €18,908 — hatchback from Poland |
+| **Best realistic saving** | −€2,916 vs. home (13%) |
+| **Worst case** | +€19,105 — Norway triggers Swedish import VAT |
+
 ## Prerequisites
 
 - Claude Code CLI.
